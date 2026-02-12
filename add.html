@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Job</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Add New Job Application.</h1>
+  <nav>
+    <li><a href="index.html">Dashboard</a></li>
+    <li><a href="add.html">Add Job</a></li>
+    <li><a href="about.html">About</a></li>
+  </nav>
+</header>
+ <hr> 
+<main>
+  <section>
+    <form id="jobForm">
+      <input type="text" id="company" placeholder="Company Name">
+      <input type="text" id="position" placeholder="Position">
+      <input type="date" id="date">
+      <select id="status">
+        <option value=""Select Status></option>
+        <option value="Pending">Pending</option>
+        <option value="Interview">Interview</option>
+        <option value="Rejected">Rejected</option>
+        <option value="Accepted">Accepted</option>
+      </select>
+      <button type="submit">Add Job</button>
+      <p id="errorMessage" class="error"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Job Tracker</p>
+</footer>
+
+<script src="javascript.js"></script>
+</body>
+</html>
