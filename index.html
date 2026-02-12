@@ -3,8 +3,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job App Tracker</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <h1>Job Application Tracker.</h1>
+    <nav>
+      <li><a href="index.html">Dashboard</a></li>
+      <li><a href="add.html">Add Job</a></li>
+      <li><a href="about.html">About</a></li>
+    </nav>
+  </header>
+  <hr>
+  <main>
+    <section>
+      <h2>Total Applications: <span id="totalJobs">0</span></h2>
+    </section>
   
+    <section id="jobList" class="job-container">
+    </section>
+  </main>
+
+  <footer>
+    <p>&COPY; 2026 Job Tracker | Built by Trizah Njeri</p>
+  </footer>
+
+  <script src="javascript.js"></script>
 </body>
 </html>
