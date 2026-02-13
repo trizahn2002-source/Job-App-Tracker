@@ -1,2 +1,2 @@
 # Job-App-Tracker
-Job Application Trcker
+Job Application Tracker
