@@ -107,8 +107,8 @@ ul li{
 footer{
   text-align: center;
   padding: 20px;
-  background-color: aqua;
-  color: black;
+  background-color: rgb(7, 83, 58);
+  color: white;
   margin-top: 40px;
 }
 @media (max-width: 768px){
