@@ -51,10 +51,17 @@ if (form {
           <button onclick="deleteJob(${index"})"Delete</button">
       ';
       container.appendChild(div);
+    });
+  }  
+    //Delete Jobs
+    function deleteJob(index) {
+      jobs.splice(index, 1);
+      saveJobs();
+      displayJobs();
+    }
           
 
-    ]
-  )
-  }
+    
+  
+  
 
-}) 
