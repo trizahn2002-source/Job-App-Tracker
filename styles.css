@@ -7,9 +7,6 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(https://i.pinimg.com/736x/4b/5a/01/4b5a01812ae6b0491d52f6c497ac2f75.jpg);
 }
-header 1[
-  font-size: 28px;
-]
 nav{
   background-color: #2c9883;
 }
@@ -17,7 +14,7 @@ header{
   background-color: #156c44;
   color: white;
   text-align: center;
-  padding: 25px o;
+  padding: 25px 0;
 }
 nav ul{
   list-style: none;
@@ -40,7 +37,7 @@ section{
   background-color: white;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: o 2px 8px;
+  box-shadow: 0 2px 8px;
 }
 section h2{
   margin-bottom: 20px;
@@ -52,7 +49,7 @@ form div{
 label{
   display: block;
   margin-bottom: 5px;
-  font font-weight: bold;
+  font-weight: bold;
 }
 input, select{
   width: 100%;
@@ -114,6 +111,7 @@ footer{
 @media (max-width: 768px){
   nav ul{
     text-align: center;
+    flex-direction: column;
   }
   nav ul li{
     margin: 10px 0;

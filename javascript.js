@@ -1,4 +1,4 @@
-// Get existing from localStorage
+// Get existing jobs from localStorage
 let jobs = JSON.parse(localStorage.getItem("jobs")) || [];
 
 //Save jobs to localStorage
@@ -10,16 +10,19 @@ const form = document.getElementById("jobForm");
 
 if (form) {
   form.addEventListener("submit", function (e) {e.preventDefault();
+
     const company = document.getElementById("company").value;
     const position = document.getElementById("position").value;
     const status = document.getElementById("status").value;
+
     //Crete job object
     const newJob = {
       company: company,
-      position: position
+      position: position,
       status: status
-      
+
     };
+
     //Add to array
     jobs.push(newJob);
 
@@ -29,9 +32,10 @@ if (form) {
     //Reset form
     form.reset();
 
-    //Optional message
+
     alert("Job added successfully!");
   });
+}
 
   //Display the jobs
   const container = document.getElementById("jobsContainer");
@@ -39,6 +43,7 @@ if (form) {
   if (container) {
     displayJobs();
   }
+  
   function displayJobs(){
     container.innerHTML = "";
 
@@ -62,9 +67,3 @@ if (form) {
       saveJobs();
       displayJobs();
     }
-          
-
-    
-  
-  
-
