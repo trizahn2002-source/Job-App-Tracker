@@ -5,7 +5,8 @@ let jobs =JSON.parse(localStorage.getItem("jobs"));
 function saveJobs() {
   localStorage.setItem("jobs", JSON.stringify(jobs));
 }
-//Add Job
+sition: position,
+      status: s//Add Job
 const form = document.getElementById("jobForm");
 if (form {
   form.addEventListener("submit", function (e) {e.preventDefault();
@@ -15,8 +16,7 @@ if (form {
     //Crete job object
     const newJob = {
       company: company,
-      position: position,
-      status: status
+      potatus
     };
     //Add to array
     jobs.push(newJob);
