@@ -43,12 +43,11 @@ if (form) {
   if (container) {
     displayJobs();
   }
-  
-  function displayJobs(){
+
+  function displayJobs() {
     container.innerHTML = "";
 
     jobs.forEach(function (job, index)  {
-
       const div = document.createElement("div");
       div.classList.add("job-card");
 
@@ -56,8 +55,9 @@ if (form) {
           <h3>${job.company}</h3>
           <p>Position: ${job.position}</p>
           <p>Status: ${job.status}</p>
-          <button onclick="deleteJob(${index})>"Delete</button">
+          <button onclick="deleteJob(${index})">Delete</button>
       `;
+      
       container.appendChild(div);
     });
   }  
