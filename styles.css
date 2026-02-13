@@ -61,6 +61,17 @@ input, select{
   border: 1px solid #ccc;
 }
 button:hover{
-  background-color: aquamarine;
+  background-color: rgb(38, 143, 108);
   color: #ccc;
+}
+button{
+  padding: 10px 18px;
+  background-color: #2c9883;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.job-card{
+  
 }
