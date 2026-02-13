@@ -55,5 +55,12 @@ label{
   font font-weight: bold;
 }
 input, select{
-  
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button:hover{
+  background-color: aquamarine;
+  color: #ccc;
 }
