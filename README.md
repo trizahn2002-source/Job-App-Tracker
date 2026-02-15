@@ -34,12 +34,7 @@ This project is licensed under the MIT License.
 ## Acknowledgements.
 - Inspiration from job-seeking community.
 
-## How to use.
-- Clone or download the repository;
- ```bash
- git clone < https://github.com/trizahn2002-source/Job-App-Tracker >
-
-## Technologies Used.
+# Technologies Used.
 > HTML5.
 > CSS ( Responsive $ modern design )
 > JavaScript (DOM Manipulation $ LocalStorage)
@@ -49,6 +44,11 @@ This project is licensed under the MIT License.
 - Student/Real Estate Consultant.
 - **Instagram** <https://www.instagram.com/njerit_00/>
 - **Contact**- +254 706 174945
+
+## How to use.
+- Clone or download the repository;
+ ```bash
+ git clone < https://github.com/trizahn2002-source/Job-App-Tracker >
 
                                 **Happy Job Hunting**
 
