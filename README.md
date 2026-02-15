@@ -14,13 +14,45 @@ A simple web application to track and manage your job applications.
 2. **add.html** - Add a new job application.
 3. **about.html** - Project pverview and features.
 
+## Project Structure.
+```
+job-application-tracker.
+├── src/
+│   ├── components/     # React components
+│   ├── pages/          # Page components
+│   ├── utils/          # Helper functions
+│   ├── styles/         # CSS/styling files
+│   └── data/           # Data management
+├── public/             # Static assets
+├── tests/              # Test files
+└── package.json
+```
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements.
+- Inspiration from job-seeking community.
+
 ## How to use.
 - Clone or download the repository;
  ```bash
  git clone < https://github.com/trizahn2002-source/Job-App-Tracker >
 
-##Technologies Used.
+## Technologies Used.
 > HTML5.
->CSS ( Responsive $ modern design )
+> CSS ( Responsive $ modern design )
+> JavaScript (DOM Manipulation $ LocalStorage)
+
+## About the Author.
+- Trizah Njeri.
+- Student/Real Estate Consultant.
+- **Instagram** <https://www.instagram.com/njerit_00/>
+- **Contact**- +254 706 174945
+
+                                **Happy Job Hunting**
+
+
+
 
 
